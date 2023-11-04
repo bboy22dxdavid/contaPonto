@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "234138813499",
+    "project_id": "conta-pontos",
+    "storage_bucket": "conta-pontos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234138813499:android:ec9ec6cb2d5fed87e4881e",
+        "android_client_info": {
+          "package_name": "com.example.contaponto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2KbB0A2UFwG0y32r85c3tIEdFRHp3SVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
