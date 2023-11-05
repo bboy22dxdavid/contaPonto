@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
+  sdk: '>=2.18.2 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,7 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_native_splash: ^2.2.0+1
+  flutter_launcher_icons: ^0.10.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -38,6 +39,27 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^2.21.0
   cloud_firestore: ^4.12.2
+
+
+
+# CRIANDO A SPLASH DO PROJETO
+flutter_native_splash:
+    color: "#3F51B5"
+    image: "assets/splash.png"
+    android: true
+    ios: true
+
+# CONFIGURANDO O ICONE DO PROJETO
+flutter_icons:
+  image_path: "assets/icon.png"
+  ios: true
+  remove_alpha_ios: true
+  android: "launcher_icon"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon-android.png"
+
+
+
 
 dev_dependencies:
   flutter_test:
